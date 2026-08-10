@@ -1,0 +1,473 @@
+/* ================================
+   Adil Tech Solutions
+   Main Website Styles
+================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #172033;
+  line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  padding: 18px 6%;
+  background: #071a33;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #29b6f6;
+}
+
+.languages {
+  display: flex;
+  gap: 5px;
+}
+
+.languages button {
+  border: 1px solid #47708f;
+  background: transparent;
+  color: white;
+  padding: 7px 9px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 650px;
+  padding: 100px 6%;
+
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #071a33,
+      #0b3158,
+      #075985
+    );
+
+  color: white;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.tagline {
+  color: #55d6ff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 7vw, 78px);
+  line-height: 1.05;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 19px;
+  max-width: 700px;
+  color: #d9edf7;
+}
+
+/* BUTTONS */
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #10a9e8;
+  color: white;
+}
+
+.primary:hover {
+  background: #0787bd;
+}
+
+.secondary {
+  background: white;
+  color: #071a33;
+}
+
+.secondary:hover {
+  background: #e8f4fa;
+}
+
+/* GENERAL SECTIONS */
+
+section {
+  padding: 90px 6%;
+}
+
+.section-title {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 55px;
+}
+
+.section-title p {
+  color: #079bd7;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.section-title h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+  color: #071a33;
+}
+
+.section-title span {
+  color: #667085;
+}
+
+/* SERVICES */
+
+#services {
+  background: #ffffff;
+}
+
+.service-card {
+  max-width: 1050px;
+  margin: 25px auto;
+  padding: 35px;
+
+  background: #f8fbfd;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.service-icon {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.service-card h3,
+.custom-service h3 {
+  font-size: 27px;
+  color: #071a33;
+  margin-bottom: 10px;
+}
+
+.service-card p,
+.custom-service p {
+  color: #667085;
+  margin-bottom: 20px;
+}
+
+.service-card ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+  padding-left: 20px;
+}
+
+.service-card li {
+  color: #344054;
+}
+
+/* CUSTOM SERVICE */
+
+.custom-service {
+  max-width: 1050px;
+  margin: 45px auto 0;
+  padding: 50px 35px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #071a33,
+      #075985
+    );
+
+  color: white;
+}
+
+.custom-service h3 {
+  color: white;
+}
+
+.custom-service p {
+  color: #d9edf7;
+  max-width: 700px;
+  margin: 0 auto 25px;
+}
+
+/* HOW IT WORKS */
+
+#how-it-works {
+  background: #f1f7fb;
+}
+
+.steps {
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.step {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #e2e8f0;
+}
+
+.step strong {
+  color: #079bd7;
+  font-size: 30px;
+}
+
+.step h3 {
+  margin: 10px 0;
+  color: #071a33;
+}
+
+.step p {
+  color: #667085;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+  background: white;
+}
+
+.portfolio-message {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  padding: 70px 30px;
+
+  border: 2px dashed #b8d8e8;
+  border-radius: 20px;
+}
+
+.portfolio-message h3 {
+  font-size: 28px;
+  color: #071a33;
+  margin-bottom: 10px;
+}
+
+.portfolio-message p {
+  color: #667085;
+}
+
+/* ABOUT */
+
+#about {
+  background: #f1f7fb;
+}
+
+.about-content {
+  max-width: 850px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+  color: #475467;
+}
+
+/* CONTACT */
+
+#contact {
+  background: white;
+}
+
+form {
+  max-width: 800px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #079bd7;
+}
+
+textarea {
+  resize: vertical;
+}
+
+form .btn {
+  align-self: flex-start;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 45px 6%;
+  text-align: center;
+
+  background: #071a33;
+  color: white;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: #b9d0df;
+  margin: 5px;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  .steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .hero {
+    min-height: 600px;
+    padding: 80px 5%;
+  }
+
+  .hero h1 {
+    font-size: 43px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  section {
+    padding: 65px 5%;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .service-card {
+    padding: 25px;
+  }
+
+  .service-card ul {
+    grid-template-columns: 1fr;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  form .btn {
+    width: 100%;
+  }
+
+  }

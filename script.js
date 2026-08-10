@@ -18,3 +18,35 @@ if(startButton){
     });
 
 }
+
+// Language System
+
+function changeLanguage(language){
+
+    if(language === "ar"){
+
+        document.body.dir = "rtl";
+
+        alert("Arabic language selected");
+
+    }
+
+
+    else if(language === "ur"){
+
+        document.body.dir = "rtl";
+
+        alert("Urdu language selected");
+
+    }
+
+
+    else{
+
+        document.body.dir = "ltr";
+
+        alert("English language selected");
+
+    }
+
+}

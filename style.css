@@ -746,3 +746,91 @@ grid-template-columns:1fr;
 }
 
 }
+/* Order Success Page */
+
+
+.success-page {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #071a33;
+    padding: 30px;
+
+}
+
+
+.success-box {
+
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px #0003;
+
+}
+
+
+.success-box h1 {
+
+    color: #00aaff;
+    font-size: 45px;
+    margin-bottom: 15px;
+
+}
+
+
+.success-box h2 {
+
+    color: #003b66;
+    margin-bottom: 20px;
+
+}
+
+
+.success-box p {
+
+    line-height: 1.7;
+    font-size: 17px;
+
+}
+
+
+.order-info {
+
+    margin: 30px 0;
+    text-align: left;
+
+}
+
+
+.order-info p {
+
+    background: #f5f8fc;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+
+
+.success-box a {
+
+    display: inline-block;
+    background: #00aaff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+
+.success-box a:hover {
+
+    background: #003b66;
+
+}

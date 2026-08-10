@@ -450,3 +450,81 @@ nav{
     font-size: 25px;
 
 }
+/* Login Page */
+
+.login-page {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #071a33;
+
+}
+
+
+.login-box {
+
+    width: 380px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px #0003;
+
+}
+
+
+.login-box h2 {
+
+    color: #003b66;
+    margin-bottom: 30px;
+
+}
+
+
+.login-box form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+
+.login-box input {
+
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+
+.login-box button {
+
+    background: #00aaff;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+
+
+.login-box button:hover {
+
+    background: #003b66;
+
+}
+
+
+.login-box a {
+
+    color: #00aaff;
+    text-decoration: none;
+
+}

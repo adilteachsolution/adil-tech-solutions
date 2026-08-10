@@ -594,3 +594,77 @@ nav{
     }
 
 }
+/* Admin Dashboard */
+
+.admin-dashboard {
+
+    min-height: 100vh;
+    padding: 60px 8%;
+    background: #071a33;
+
+}
+
+
+.admin-dashboard h1 {
+
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+
+.admin-cards {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+
+}
+
+
+.admin-cards .card {
+
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px #0003;
+    transition: 0.3s;
+
+}
+
+
+.admin-cards .card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+.admin-cards h3 {
+
+    color: #003b66;
+    margin-bottom: 15px;
+
+}
+
+
+.admin-cards p {
+
+    color: #555;
+
+}
+
+
+/* Mobile Admin */
+
+@media(max-width:900px){
+
+    .admin-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

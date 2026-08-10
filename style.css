@@ -177,3 +177,44 @@ nav{
 
 
 }
+/* About Section */
+
+.about {
+    padding: 60px 8%;
+    text-align: center;
+    background: white;
+}
+
+
+.about h2 {
+    font-size: 36px;
+    color: #003b66;
+    margin-bottom: 20px;
+}
+
+
+.about p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* Improve Service Cards */
+
+.card {
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+/* Services spacing */
+
+.services {
+    background: #f5f8fc;
+}

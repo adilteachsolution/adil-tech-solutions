@@ -19,34 +19,65 @@ if(startButton){
 
 }
 
-// Language System
+
+
+
+
+        
+    }
+
+
+// Translation Data
+
+const translations = {
+
+    en: {
+        title: "Build Your Digital Future With Adiltechsolution",
+        description: "Professional Website Development, Software, Mobile Apps and Digital Marketing Solutions For Businesses Worldwide."
+    },
+
+
+    ar: {
+        title: "ابنِ مستقبلك الرقمي مع Adiltechsolution",
+        description: "حلول احترافية لتطوير المواقع والبرمجيات والتطبيقات والتسويق الرقمي للشركات حول العالم."
+    },
+
+
+    ur: {
+        title: "Adiltechsolution کے ساتھ اپنا ڈیجیٹل مستقبل بنائیں",
+        description: "دنیا بھر کے کاروباروں کے لیے ویب سائٹ، سافٹ ویئر، موبائل ایپس اور ڈیجیٹل مارکیٹنگ کی پروفیشنل خدمات۔"
+    }
+
+};
+
+
 
 function changeLanguage(language){
 
-    if(language === "ar"){
+
+    document.getElementById("hero-title").innerHTML =
+    translations[language].title;
+
+
+    document.getElementById("hero-description").innerHTML =
+    translations[language].description;
+
+
+
+    if(language === "ar" || language === "ur"){
 
         document.body.dir = "rtl";
 
-        alert("Arabic language selected");
-
     }
-
-
-    else if(language === "ur"){
-
-        document.body.dir = "rtl";
-
-        alert("Urdu language selected");
-
-    }
-
 
     else{
 
         document.body.dir = "ltr";
 
-        alert("English language selected");
-
     }
 
 }
+        
+    
+
+

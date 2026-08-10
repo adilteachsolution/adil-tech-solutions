@@ -341,3 +341,55 @@ nav{
     background: #128C7E;
 
 }
+/* Portfolio & Process Sections */
+
+
+.portfolio,
+.process {
+
+    padding: 60px 8%;
+    text-align: center;
+    background: #f5f8fc;
+
+}
+
+
+.portfolio h2,
+.process h2 {
+
+    font-size: 36px;
+    color: #003b66;
+    margin-bottom: 40px;
+
+}
+
+
+/* Section Cards */
+
+.portfolio .card,
+.process .card {
+
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 20px #ddd;
+    transition: 0.3s;
+
+}
+
+
+.portfolio .card:hover,
+.process .card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+.portfolio .card h3,
+.process .card h3 {
+
+    color: #003b66;
+    margin-bottom: 15px;
+
+}

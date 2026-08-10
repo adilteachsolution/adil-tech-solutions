@@ -668,3 +668,81 @@ nav{
     }
 
 }
+/* Projects Management */
+
+.projects-page {
+
+    min-height: 100vh;
+    padding: 60px 8%;
+    background: #f5f8fc;
+
+}
+
+
+.projects-page h1 {
+
+    text-align: center;
+    color: #003b66;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.project-cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+
+
+.project-cards .card {
+
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+    transition: 0.3s;
+
+}
+
+
+.project-cards .card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+.project-cards h3 {
+
+    color: #003b66;
+
+}
+
+
+.project-cards span {
+
+    display: inline-block;
+    margin-top: 15px;
+    background: #00aaff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:900px){
+
+.project-cards{
+
+grid-template-columns:1fr;
+
+}
+
+}

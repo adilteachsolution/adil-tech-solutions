@@ -393,3 +393,60 @@ nav{
     margin-bottom: 15px;
 
 }
+/* Pricing Section */
+
+.pricing,
+.reviews {
+
+    padding: 60px 8%;
+    text-align: center;
+    background: #ffffff;
+
+}
+
+
+.pricing h2,
+.reviews h2 {
+
+    font-size: 36px;
+    color: #003b66;
+    margin-bottom: 40px;
+
+}
+
+
+.pricing .card,
+.reviews .card {
+
+    background: #f5f8fc;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 20px #ddd;
+    transition: 0.3s;
+
+}
+
+
+.pricing .card:hover,
+.reviews .card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+.pricing .card h3 {
+
+    color: #003b66;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+
+.reviews .card h3 {
+
+    color: #00aaff;
+    font-size: 25px;
+
+}

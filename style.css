@@ -895,4 +895,52 @@ footer a:hover {
     color: #00aaff;
 
 }
+/* Mobile Menu */
+
+.menu-btn {
+
+    display: none;
+    background: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 22px;
+
+}
+
+
+@media(max-width:900px){
+
+.menu-btn{
+
+    display:block;
+
+}
+
+
+nav{
+
+    display:none;
+    flex-direction:column;
+    background:#071a33;
+    padding:20px;
+
+}
+
+
+nav.active{
+
+    display:flex;
+
+}
+
+
+nav a{
+
+    margin:10px;
+
+}
+
+}
 

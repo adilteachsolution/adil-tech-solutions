@@ -49,6 +49,34 @@ if(startButton){
     }
 
 
+import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+
+window.createAccount = function(){
+
+let email = document.getElementById("email").value;
+let password = document.getElementById("password").value;
+
+
+createUserWithEmailAndPassword(auth, email, password)
+
+.then((userCredential)=>{
+
+alert("Account created successfully");
+
+window.location.href = "login.html";
+
+})
+
+.catch((error)=>{
+
+alert(error.message);
+
+});
+
+}
+
+
 // Translation Data
 
 const translations = {

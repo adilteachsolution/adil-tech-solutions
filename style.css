@@ -881,4 +881,18 @@ grid-template-columns:1fr;
     font-size: 17px;
 
 }
+footer a {
+
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+
+}
+
+
+footer a:hover {
+
+    color: #00aaff;
+
+}
 

@@ -2,6 +2,28 @@
 
 console.log("Adiltechsolution Website Loaded");
 
+// Firebase SDK imports
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+
+// Firebase Configuration
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDsFQJkuWg8C1FKQlyvh5WCEVR8OpzeSYU",
+  authDomain: "adiltechsolution-48998.firebaseapp.com",
+  projectId: "adiltechsolution-48998",
+  storageBucket: "adiltechsolution-48998.firebasestorage.app",
+  messagingSenderId: "51969875970",
+  appId: "1:51969875970:web:b0fac9b539052ef1edc71b",
+  measurementId: "G-3SX4841DN7"
+};
+
+
+// Initialize Firebase
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
 
 // Start Project Button
 

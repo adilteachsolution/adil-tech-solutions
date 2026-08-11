@@ -138,3 +138,18 @@ if(menuBtn){
 
 }
 
+// Mobile Menu
+
+const menuBtn = document.querySelector(".menu-btn");
+const nav = document.querySelector("nav");
+
+
+if(menuBtn){
+
+    menuBtn.addEventListener("click", function(){
+
+        nav.classList.toggle("active");
+
+    });
+
+}

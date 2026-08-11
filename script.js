@@ -146,3 +146,10 @@ function loginUser(){
     window.location.href = "dashboard.html";
 
 }
+function createAccount(){
+
+    alert("Account created successfully. Please login.");
+
+    window.location.href = "login.html";
+
+}

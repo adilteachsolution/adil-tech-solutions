@@ -416,3 +416,6 @@ document.querySelectorAll(".language button")
 
 
 });
+function toggleMenu(){
+    document.getElementById("nav-menu").classList.toggle("active");
+}

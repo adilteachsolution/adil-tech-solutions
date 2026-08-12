@@ -1531,3 +1531,14 @@ footer {
         max-width: 100% !important;
     }
 }
+.logo img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 110px;
+    }
+}

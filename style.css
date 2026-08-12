@@ -616,3 +616,190 @@ html[dir="rtl"] .hero-content,
 html[dir="rtl"] .service-card {
     direction: rtl;
 }
+
+/* =========================================
+   QUOTE PAGE
+========================================= */
+
+.quote-page {
+
+    min-height: 100vh;
+
+    background: #F5F8FC;
+
+    padding: 80px 7%;
+
+}
+
+
+.quote-page h1 {
+
+    text-align: center;
+
+    color: #071A33;
+
+    font-size: 42px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.quote-page > p {
+
+    text-align: center;
+
+    color: #64748b;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.quote-form {
+
+    max-width: 750px;
+
+    margin: auto;
+
+    background: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 15px 40px rgba(7,26,51,0.10);
+
+}
+
+
+
+.quote-form label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    margin-top: 18px;
+
+    color: #071A33;
+
+    font-weight: 700;
+
+}
+
+
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+
+
+    width: 100%;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    border: 1px solid #dbe5f2;
+
+    outline: none;
+
+    font-size: 15px;
+
+    color: #172033;
+
+
+}
+
+
+
+.quote-form input:focus,
+.quote-form select:focus,
+.quote-form textarea:focus {
+
+
+    border-color: #0066FF;
+
+    box-shadow: 0 0 0 3px rgba(0,102,255,0.12);
+
+
+}
+
+
+
+.quote-form textarea {
+
+    resize: vertical;
+
+}
+
+
+
+.quote-form button {
+
+
+    width: 100%;
+
+    margin-top: 30px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #0066FF;
+
+    color: #ffffff;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+
+}
+
+
+
+.quote-form button:hover {
+
+
+    background: #00AEEF;
+
+    transform: translateY(-3px);
+
+
+}
+
+
+
+
+@media(max-width:650px){
+
+
+    .quote-page {
+
+        padding: 60px 5%;
+
+    }
+
+
+    .quote-page h1 {
+
+        font-size: 32px;
+
+    }
+
+
+    .quote-form {
+
+        padding: 25px;
+
+    }
+
+
+}

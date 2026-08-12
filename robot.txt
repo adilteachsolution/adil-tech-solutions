@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://adilteachsolution.github.io/adil-tech-solutions/sitemap.xml

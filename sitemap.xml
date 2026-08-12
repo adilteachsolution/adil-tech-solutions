@@ -2,53 +2,32 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-
 <url>
-<loc>https://adiltechsolution.github.io/adil-tech-solutions/<loc>
-<priority>1.0</priority>
+<loc>https://adiltechsolution.github.io/adil-tech-solutions/</loc>
 </url>
 
-
 <url>
-<loc>https://adiltechsolution.github.io/about.html</loc>
-<priority>0.8</priority>
+<loc>https://adiltechsolution.github.io/adil-tech-solutions/about.html</loc>
 </url>
 
-
 <url>
-<loc>https://adiltechsolution.github.io/services.html</loc>
-<priority>0.8</priority>
+<loc>https://adiltechsolution.github.io/adil-tech-solutions/contact.html</loc>
 </url>
 
-
 <url>
-<loc>https://adiltechsolution.github.io/portfolio.html</loc>
-<priority>0.8</priority>
+<loc>https://adiltechsolution.github.io/adil-tech-solutions/portfolio.html</loc>
 </url>
 
-
 <url>
-<loc>https://adiltechsolution.github.io/quote.html</loc>
-<priority>0.9</priority>
+<loc>https://adiltechsolution.github.io/adil-tech-solutions/quote.html</loc>
 </url>
 
-
 <url>
-<loc>https://adiltechsolution.github.io/contact.html</loc>
-<priority>0.7</priority>
+<loc>https://adiltechsolution.github.io/adil-tech-solutions/privacy.html</loc>
 </url>
 
-
 <url>
-<loc>https://adiltechsolution.github.io/privacy.html</loc>
-<priority>0.3</priority>
+<loc>https://adiltechsolution.github.io/adil-tech-solutions/terms.html</loc>
 </url>
-
-
-<url>
-<loc>https://adiltechsolution.github.io/terms.html</loc>
-<priority>0.3</priority>
-</url>
-
 
 </urlset>

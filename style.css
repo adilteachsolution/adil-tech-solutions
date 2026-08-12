@@ -1454,3 +1454,11 @@ html[dir="rtl"] .about-box ul {
 }
 
 }
+@media (max-width: 768px) {
+
+.logo img {
+    width: 120px !important;
+    height: auto;
+}
+
+}

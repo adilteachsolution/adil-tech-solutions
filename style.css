@@ -1441,3 +1441,16 @@ html[dir="rtl"] .about-box ul {
 
 
 }
+@media (max-width: 768px) {
+
+.logo img {
+    width: 220px;
+    max-width: 90%;
+    height: auto;
+}
+
+.hero {
+    padding-top: 30px;
+}
+
+}

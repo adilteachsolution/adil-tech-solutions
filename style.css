@@ -1542,3 +1542,36 @@ footer {
         width: 110px;
     }
 }
+.menu-btn {
+    display: none;
+    background: none;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 25px;
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+
+@media(max-width:768px){
+
+    .menu-btn {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+}

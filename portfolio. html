@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Adiltechsolution | Portfolio
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+Adiltechsolution
+</div>
+
+
+<nav>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="index.html#services">
+Services
+</a>
+
+<a href="portfolio.html">
+Portfolio
+</a>
+
+<a href="index.html#contact">
+Contact
+</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<section class="portfolio-page">
+
+
+<h1>
+Our Portfolio
+</h1>
+
+
+<p>
+Explore our websites, software solutions,
+mobile applications and digital projects.
+</p>
+
+
+
+
+<div class="portfolio-grid">
+
+
+
+<div class="portfolio-card">
+
+<div class="portfolio-image">
+Website Project
+</div>
+
+<h3>
+Business Website
+</h3>
+
+<p>
+Professional business website design
+with modern responsive layout.
+</p>
+
+</div>
+
+
+
+
+
+<div class="portfolio-card">
+
+<div class="portfolio-image">
+Software Project
+</div>
+
+<h3>
+Management System
+</h3>
+
+<p>
+Custom software solutions for business
+management and operations.
+</p>
+
+</div>
+
+
+
+
+
+<div class="portfolio-card">
+
+<div class="portfolio-image">
+Mobile App
+</div>
+
+<h3>
+Business Application
+</h3>
+
+<p>
+Mobile applications for Android and iOS
+platforms.
+</p>
+
+</div>
+
+
+
+
+
+<div class="portfolio-card">
+
+<div class="portfolio-image">
+E-Commerce
+</div>
+
+<h3>
+Online Store
+</h3>
+
+<p>
+Complete e-commerce solutions for
+online businesses.
+</p>
+
+</div>
+
+
+
+
+
+<div class="portfolio-card">
+
+<div class="portfolio-image">
+Restaurant System
+</div>
+
+<h3>
+Restaurant Software
+</h3>
+
+<p>
+Ordering, billing and management
+solutions.
+</p>
+
+</div>
+
+
+
+
+
+<div class="portfolio-card">
+
+<div class="portfolio-image">
+Marketing
+</div>
+
+<h3>
+Digital Marketing
+</h3>
+
+<p>
+SEO, social media and online growth
+solutions.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+<footer>
+
+<p>
+© 2026 Adiltechsolution. All Rights Reserved.
+</p>
+
+</footer>
+
+
+
+
+</body>
+
+</html>

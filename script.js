@@ -12,6 +12,9 @@ signInWithEmailAndPassword
 
 // Firebase Configuration
 
+const app = initializeApp(firebaseConfig);
+
+const auth = getAuth(app);
 const firebaseConfig = {
 
   apiKey: "AIzaSyDsFQJkuWg8C1FKQlyvh5WCEVR8OpzeSYU",
@@ -244,5 +247,28 @@ alert(
 
 });
 
+
+}
+window.login = function(){
+
+let email = document.getElementById("email").value;
+let password = document.getElementById("password").value;
+
+
+signInWithEmailAndPassword(auth,email,password)
+
+.then((userCredential)=>{
+
+alert("Login successful");
+
+window.location.href="dashboard.html";
+
+})
+
+.catch((error)=>{
+
+alert("Login failed: " + error.message);
+
+});
 
 }

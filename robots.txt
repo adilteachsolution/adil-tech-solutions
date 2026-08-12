@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://adiltechsolution.github.io/adil-tech-solutions/sitemap.xml
+Sitemap: https://adilteachsolution.github.io/adiltechsolution/sitemap.xml

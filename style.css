@@ -154,3 +154,39 @@ nav{
     margin-top:15px;
     padding:10px 25px;
 }
+#quote{
+    background:#f8fafc;
+}
+
+
+form{
+    max-width:600px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+
+form input,
+form select,
+form textarea{
+
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+
+}
+
+
+form textarea{
+    height:150px;
+    resize:none;
+}
+
+
+form button{
+    background:#2563eb;
+    color:white;
+}

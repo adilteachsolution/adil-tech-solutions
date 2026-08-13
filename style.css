@@ -289,3 +289,34 @@ form textarea{
     font-size:18px;
     cursor:pointer;
 }
+
+#reviews{
+    background:#f8fafc;
+}
+
+
+.review-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+
+.review-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+.review-card h3{
+    color:#f59e0b;
+    margin-bottom:15px;
+}
+
+
+.review-card p{
+    margin-bottom:15px;
+}

@@ -134,3 +134,23 @@ nav{
     width:120px;
     height:auto;
 }
+
+.service-card{
+    padding:30px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+
+.service-card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+
+.service-card button{
+    margin-top:15px;
+    padding:10px 25px;
+}

@@ -517,6 +517,14 @@ footer a:hover{
     font-size:17px;
     white-space:nowrap;
 }
+.btn,
+.btn-outline{
+    width:220px !important;
+    height:80px !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
 .hero-image img{
     width:250px;

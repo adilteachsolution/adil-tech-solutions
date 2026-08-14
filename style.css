@@ -344,4 +344,36 @@ form textarea{
 .contact-box h3{
     color:#38bdf8;
     margin-bottom:10px;
+    
+}
+footer{
+    background:#020617;
+    color:white;
+    padding:40px 8%;
+}
+
+
+.footer-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+
+.footer-box h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+
+.footer-box p{
+    margin:8px 0;
+}
+
+
+.copyright{
+    text-align:center;
+    margin-top:30px;
+    border-top:1px solid #334155;
+    padding-top:20px;
 }

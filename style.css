@@ -440,3 +440,12 @@ footer a:hover{
 #contact p{
     color:#ffffff !important;
 }
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#38bdf8;
+    color:#111827;
+    padding:15px 35px;
+    border-radius:30px;
+    font-size:18px;
+}

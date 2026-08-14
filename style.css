@@ -504,8 +504,9 @@ footer a:hover{
     border-radius:30px;
     text-decoration:none;
     font-size:17px;
+    min-width:220px;
+    white-space:nowrap;
 }
-
 
 .btn{
     background:#38bdf8;

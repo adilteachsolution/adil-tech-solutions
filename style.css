@@ -377,3 +377,35 @@ footer{
     border-top:1px solid #334155;
     padding-top:20px;
 }
+/* Legal Pages */
+
+section h1{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+
+section h2{
+    text-align:left;
+    color:#111827;
+    margin-top:30px;
+    font-size:25px;
+}
+
+
+section p{
+    line-height:1.8;
+    color:#374151;
+    font-size:17px;
+}
+
+
+section{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:60px 8%;
+}
+    

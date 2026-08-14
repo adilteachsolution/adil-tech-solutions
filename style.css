@@ -432,3 +432,11 @@ footer a:hover{
 .hero p{
     color:white;
 }
+.hero h1,
+.hero p{
+    color:#ffffff !important;
+}
+
+#contact p{
+    color:#ffffff !important;
+}

@@ -520,8 +520,9 @@ footer a:hover{
 
 
 .hero-image img{
-    width:300px;
-    animation:float 3s infinite ease-in-out;
+    width:250px;
+    max-width:100%;
+    height:auto;
 }
 
 

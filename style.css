@@ -559,6 +559,10 @@ footer a:hover{
     gap:15px;
 }
 
+.btn,
+.btn-outline{
+    flex:1;
+}
 .hero-buttons .btn,
 .hero-buttons .btn-outline{
     width:220px;

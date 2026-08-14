@@ -579,3 +579,35 @@ footer a:hover{
     justify-content:center;
     text-align:center;
 }
+@media(max-width:768px){
+
+body{
+    overflow-x:hidden;
+}
+
+.hero{
+    width:100%;
+    max-width:100%;
+    overflow:hidden;
+}
+
+.hero h1,
+.hero p{
+    width:100%;
+    max-width:100%;
+}
+
+.hero-buttons{
+    width:100%;
+    display:flex;
+    gap:15px;
+}
+
+.hero-buttons .btn,
+.hero-buttons .btn-outline{
+    flex:1;
+    width:50%;
+    max-width:50%;
+    box-sizing:border-box;
+}
+}

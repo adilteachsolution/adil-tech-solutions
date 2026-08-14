@@ -320,3 +320,28 @@ form textarea{
 .review-card p{
     margin-bottom:15px;
 }
+#contact{
+    background:#111827;
+    color:white;
+}
+
+
+.contact-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    text-align:center;
+}
+
+
+.contact-box div{
+    background:#1f2937;
+    padding:25px;
+    border-radius:15px;
+}
+
+
+.contact-box h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}

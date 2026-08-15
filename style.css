@@ -774,3 +774,25 @@ body{
     border-radius:30px;
     text-decoration:none;
 }
+.service-page{
+    padding:60px 8%;
+    text-align:center;
+}
+
+.service-page h1{
+    background:#111827;
+    color:white;
+    padding:40px;
+    font-size:45px;
+}
+
+.service-page h2{
+    color:#2563eb;
+    margin-top:40px;
+}
+
+.service-page p{
+    font-size:20px;
+    line-height:1.8;
+    color:#374151;
+}

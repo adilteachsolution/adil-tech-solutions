@@ -850,3 +850,32 @@ body{
         font-size:35px !important;
     }
 }
+.floating-buttons{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    z-index:999;
+}
+
+.floating-buttons a{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:25px;
+    color:white;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.call{
+    background:#2563eb;
+}

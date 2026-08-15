@@ -820,3 +820,15 @@ body{
         font-size:38px;
     }
 }
+.hero h1{
+    font-size:50px;
+    word-break:break-word;
+    overflow-wrap:break-word;
+    text-align:center;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:38px;
+    }
+}

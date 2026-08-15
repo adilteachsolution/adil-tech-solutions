@@ -158,9 +158,8 @@ Adiltechsolution is a digital solutions company specializing in website developm
 
 <h2>Start Your Project</h2>
 
-<form>
 
-<input type="text" placeholder="Full Name" required>
+<form onsubmit="sendWhatsApp(); return false;"><input type="text" placeholder="Full Name" required>
 
 <input type="text" placeholder="Country" required>
 
@@ -201,6 +200,34 @@ Send Request
 
 
 </form>
+    <script>
+function sendWhatsApp(){
+
+let name = document.querySelector('input[placeholder="Full Name"]').value;
+let country = document.querySelector('input[placeholder="Country"]').value;
+let email = document.querySelector('input[placeholder="Email Address"]').value;
+let whatsapp = document.querySelector('input[placeholder="WhatsApp Number"]').value;
+let business = document.querySelector('input[placeholder="Business Name"]').value;
+let type = document.querySelector('input[placeholder="Business Type"]').value;
+let service = document.querySelector('select').value;
+let description = document.querySelector('textarea').value;
+let budget = document.querySelectorAll('select')[1].value;
+
+let message =
+"New Project Request%0A%0A" +
+"Name: " + name + "%0A" +
+"Country: " + country + "%0A" +
+"Email: " + email + "%0A" +
+"WhatsApp: " + whatsapp + "%0A" +
+"Business: " + business + "%0A" +
+"Type: " + type + "%0A" +
+"Service: " + service + "%0A" +
+"Project: " + description + "%0A" +
+"Budget: " + budget;
+
+window.open("https://wa.me/966547877891?text=" + message);
+}
+</script>
 
 </section>
 

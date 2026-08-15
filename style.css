@@ -807,3 +807,16 @@ body{
         font-size:38px;
     }
 }
+
+.page-title{
+    font-size:50px;
+    line-height:1.2;
+    text-align:center;
+    word-break:break-word;
+}
+
+@media(max-width:768px){
+    .page-title{
+        font-size:38px;
+    }
+}

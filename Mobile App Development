@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mobile App Development | Adiltechsolution</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="service-page">
+
+<h1>Mobile App Development</h1>
+
+<h2>Professional Mobile App Development</h2>
+
+<p>
+We create modern and user-friendly mobile applications
+for Android and iOS platforms. Our apps help businesses
+improve customer experience and grow digitally.
+</p>
+
+
+<h2>Our Mobile App Services</h2>
+
+<p>
+✓ Android Applications
+</p>
+
+<p>
+✓ iOS Applications
+</p>
+
+<p>
+✓ Business Mobile Apps
+</p>
+
+<p>
+✓ Custom Mobile Solutions
+</p>
+
+<p>
+✓ App Maintenance & Support
+</p>
+
+
+<h2>Why Choose Us?</h2>
+
+<p>
+✓ Modern Technology
+</p>
+
+<p>
+✓ Professional Design
+</p>
+
+<p>
+✓ Fast and Reliable Solutions
+</p>
+
+
+<a href="index.html" class="btn">
+Back To Home
+</a>
+
+
+</section>
+
+</body>
+
+</html>

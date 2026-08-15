@@ -853,7 +853,7 @@ body{
 .floating-buttons{
     position:fixed;
     right:20px;
-    bottom:20px;
+    bottom:80px;
     display:flex;
     flex-direction:column;
     gap:15px;

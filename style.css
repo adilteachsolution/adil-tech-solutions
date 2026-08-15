@@ -832,3 +832,21 @@ body{
         font-size:38px;
     }
 }
+
+.hero{
+    overflow:hidden;
+}
+
+.hero h1{
+    font-size:45px !important;
+    width:100%;
+    max-width:100%;
+    text-align:center;
+    word-break:normal;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:35px !important;
+    }
+}

@@ -546,15 +546,18 @@ section h2{
     height:auto;
     display:block;
 }
-
 @media(max-width:900px){
 
-.hero-image{
+.services-container{
+    display:block;
+    padding:20px;
+}
+
+.card{
     width:100%;
+    margin-bottom:20px;
+    padding:25px;
 }
 
-.hero-image img{
-    border-radius:0;
 }
 
-}

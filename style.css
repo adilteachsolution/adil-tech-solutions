@@ -541,3 +541,20 @@ section h2{
     margin-top:-20px;
 }
 
+.hero-image img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+@media(max-width:900px){
+
+.hero-image{
+    width:100%;
+}
+
+.hero-image img{
+    border-radius:0;
+}
+
+}

@@ -530,7 +530,9 @@ section h2{
 
 }
 
+
 .logo img{
-    width:180px;
+    width:160px;
     height:auto;
+    object-fit:contain;
 }

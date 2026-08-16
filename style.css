@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: #ffffff;
+    color: #111;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #081b3a;
+    color: white;
+}
+
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.logo span {
+    color: #00a8ff;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+
+nav a:hover {
+    color: #00a8ff;
+}
+
+
+/* Buttons */
+
+.btn {
+    background: #00a8ff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+
+.btn:hover {
+    background: #0077b6;
+}
+
+
+.whatsapp {
+    background: #25D366;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+
+/* Hero */
+
+.hero {
+    min-height: 90vh;
+    padding: 80px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg,#081b3a,#004e92);
+    color:white;
+}
+
+
+.hero-content {
+    width: 55%;
+}
+
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.hero-buttons a {
+    margin-right: 15px;
+}
+
+
+
+.hero-image .box {
+
+    background:white;
+    color:#081b3a;
+    padding:60px 40px;
+    border-radius:20px;
+    font-size:28px;
+    font-weight:bold;
+    text-align:center;
+
+}
+
+
+
+/* Services */
+
+section {
+    padding:70px 8%;
+}
+
+
+section h2 {
+    text-align:center;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+
+.services-container {
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+
+}
+
+
+
+.card {
+
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+
+}
+
+
+.card:hover {
+
+    transform:translateY(-10px);
+
+}
+
+
+.card h3 {
+
+    color:#081b3a;
+    margin-bottom:15px;
+
+}
+
+
+
+/* About */
+
+.about {
+
+    background:#f5f8fc;
+    text-align:center;
+
+}
+
+
+/* Quote */
+
+.quote {
+
+    text-align:center;
+    background:#081b3a;
+    color:white;
+
+}
+
+
+
+/* Contact */
+
+#contact {
+
+    text-align:center;
+
+}
+
+
+
+/* Footer */
+
+footer {
+
+    background:#050d1c;
+    color:white;
+    text-align:center;
+    padding:25px;
+
+}
+
+
+footer a {
+
+    color:#00a8ff;
+    text-decoration:none;
+
+}
+
+
+
+/* Floating Buttons */
+
+
+.floating-whatsapp,
+.floating-call {
+
+    position:fixed;
+    right:20px;
+    padding:15px 20px;
+    border-radius:50px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    z-index:100;
+
+}
+
+
+.floating-whatsapp {
+
+    bottom:80px;
+    background:#25D366;
+
+}
+
+
+.floating-call {
+
+    bottom:20px;
+    background:#00a8ff;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:900px){
+
+
+header {
+
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+nav {
+
+    display:none;
+
+}
+
+
+.hero {
+
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+
+}
+
+
+.hero-content {
+
+    width:100%;
+
+}
+
+
+.hero h1 {
+
+    font-size:35px;
+
+}
+
+
+.services-container {
+
+    grid-template-columns:1fr;
+
+}
+
+
+}

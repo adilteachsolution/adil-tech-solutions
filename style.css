@@ -598,3 +598,17 @@ section{
     color:#cbd5e1;
     font-size:15px;
 }
+
+.steps{
+    gap:20px !important;
+}
+
+.steps > div{
+    margin:15px auto !important;
+    padding:20px !important;
+    min-height:180px !important;
+}
+
+.work{
+    padding:40px 20px !important;
+}

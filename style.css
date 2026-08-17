@@ -636,3 +636,17 @@ section{
 .work{
     padding:20px !important;
 }
+.work .steps{
+    gap:10px !important;
+    padding:0 !important;
+}
+
+.work .steps > div{
+    margin:10px auto !important;
+    padding:15px !important;
+    min-height:120px !important;
+}
+
+.work{
+    padding:20px 10px !important;
+}

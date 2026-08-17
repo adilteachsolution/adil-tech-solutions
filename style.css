@@ -380,3 +380,33 @@ P.hero-image{
     font-size:22px;
     line-height:1.7;
 }
+.work{
+    padding:80px 20px;
+}
+
+.steps{
+    max-width:600px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.steps div{
+    background:#081b3d;
+    padding:35px 25px;
+    border-radius:25px;
+    text-align:center;
+}
+
+.steps h3{
+    color:#00aaff;
+    font-size:55px;
+    margin:0 0 10px;
+}
+
+.steps p{
+    color:white;
+    font-size:24px;
+    margin:0;
+}

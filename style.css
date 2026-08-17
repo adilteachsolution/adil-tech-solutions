@@ -612,3 +612,27 @@ section{
 .work{
     padding:40px 20px !important;
 }
+.steps{
+    display:block !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.steps > div{
+    margin:20px auto !important;
+    padding:20px !important;
+    height:auto !important;
+    min-height:160px !important;
+}
+
+.steps h3{
+    margin:0 0 15px 0 !important;
+}
+
+.steps p{
+    margin:0 !important;
+}
+
+.work{
+    padding:20px !important;
+}

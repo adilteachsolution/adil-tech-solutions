@@ -286,3 +286,8 @@ font-size:38px;
     max-height:40px;
     object-fit:contain;
 }
+.logo img{
+    width:80px !important;
+    height:40px !important;
+    object-fit:contain;
+}

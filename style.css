@@ -655,3 +655,26 @@ margin-top:35px;
 color:#ddd;
 font-size:16px;
 }
+
+.policy{
+    max-width:700px;
+    margin:50px auto;
+    padding:30px;
+    color:white;
+    background:#081b3d;
+    border-radius:25px;
+}
+
+.policy h1{
+    color:#00aaff;
+    margin-bottom:25px;
+}
+
+.policy h2{
+    margin-top:25px;
+}
+
+.policy p{
+    color:#d0d7e8;
+    line-height:1.8;
+}

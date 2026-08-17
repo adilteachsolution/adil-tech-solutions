@@ -281,8 +281,8 @@ font-size:38px;
 }
 
 .logo img{
-    width:100%;
+    width:90px:
     height:auto;
-    max-height:50px;
+    max-height:40px;
     object-fit:contain;
 }

@@ -301,3 +301,18 @@ P.hero-image{
     max-width:600px;
     border-radius:20px;
 }
+.hero-image{
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.hero-image img{
+    width:90%;
+    max-width:600px;
+    display:block;
+    margin:auto;
+}
+
+#services{
+    padding-top:40px;
+}

@@ -560,93 +560,49 @@ section{
     border-radius:10px;
     text-decoration:none;
 }
-.work .steps{
-    max-width:600px;
-    margin:40px auto;
-}
-
-.work .steps > div{
-    background:transparent;
-    display:flex;
-    align-items:flex-start;
-    gap:20px;
-    padding:20px 0;
-    margin:0;
-}
-
-.work .steps h3{
-    width:45px;
-    height:45px;
-    border-radius:50%;
-    background:#081b3d;
-    border:2px solid #00aaff;
-    color:#00aaff;
-    font-size:18px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-shrink:0;
-}
-
-.work .steps p{
-    color:white;
-    font-size:20px;
-    margin:0 0 8px;
-}
-
-.work .steps small{
-    color:#cbd5e1;
-    font-size:15px;
-}
-
-.steps{
-    gap:20px !important;
-}
-
-.steps > div{
-    margin:15px auto !important;
-    padding:20px !important;
-    min-height:180px !important;
-}
-
 .work{
-    padding:40px 20px !important;
+    padding:40px 20px;
 }
+
+.work .title{
+    color:white;
+    text-align:center;
+    margin-bottom:30px;
+}
+
 .steps{
-    display:block !important;
-    padding:0 !important;
-    margin:0 !important;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    max-width:600px;
+    margin:auto;
 }
 
 .steps > div{
-    margin:20px auto !important;
-    padding:20px !important;
-    height:auto !important;
-    min-height:160px !important;
+    background:#081b3d;
+    border-radius:25px;
+    padding:25px 20px;
+    text-align:center;
+    min-height:150px;
+    margin:0 !important;
 }
 
 .steps h3{
-    margin:0 0 15px 0 !important;
+    width:55px;
+    height:55px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#081b3d;
+    border:2px solid #00aaff;
+    color:#00aaff;
+    font-size:22px;
 }
 
 .steps p{
-    margin:0 !important;
-}
-
-.work{
-    padding:20px !important;
-}
-.work .steps{
-    gap:10px !important;
-    padding:0 !important;
-}
-
-.work .steps > div{
-    margin:10px auto !important;
-    padding:15px !important;
-    min-height:120px !important;
-}
-
-.work{
-    padding:20px 10px !important;
+    color:white;
+    font-size:22px;
+    margin:0;
 }

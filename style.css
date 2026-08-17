@@ -410,3 +410,77 @@ P.hero-image{
     font-size:24px;
     margin:0;
 }
+
+#contact{
+    padding:80px 20px;
+}
+
+.contact-box{
+    background:#081b3d;
+    max-width:600px;
+    margin:auto;
+    padding:40px 30px;
+    border-radius:25px;
+}
+
+.contact-box p{
+    color:white;
+    font-size:22px;
+    margin:25px 0;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.contact-box i{
+    color:#00aaff;
+    font-size:25px;
+}
+
+
+footer{
+    background:#020b24;
+    text-align:center;
+    padding:50px 20px;
+}
+
+footer h3{
+    color:white;
+    font-size:32px;
+}
+
+footer p{
+    color:#cbd5e1;
+    font-size:18px;
+}
+
+.social{
+    margin:25px 0;
+}
+
+.social i{
+    color:#00aaff;
+    font-size:35px;
+    margin:0 12px;
+}
+
+.copy{
+    margin-top:30px;
+    font-size:16px;
+}
+
+
+.whatsapp{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:65px;
+    height:65px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:35px;
+}

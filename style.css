@@ -425,16 +425,16 @@ P.hero-image{
 
 .contact-box p{
     color:white;
-    font-size:22px;
+    font-size:18px;
     margin:25px 0;
     display:flex;
     align-items:center;
-    gap:20px;
+    gap:15px;
 }
 
 .contact-box i{
     color:#00aaff;
-    font-size:25px;
+    font-size:22px;
 }
 
 

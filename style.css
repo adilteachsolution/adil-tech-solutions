@@ -733,3 +733,14 @@ font-size:16px;
     margin-top:0 !important;
     padding:25px !important;
 }
+#contact{
+    padding-top:30px;
+}
+
+#contact .title{
+    margin-bottom:25px;
+}
+
+.contact-box{
+    margin-top:0;
+}

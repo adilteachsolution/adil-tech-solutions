@@ -315,4 +315,49 @@ P.hero-image{
 
 #services{
     padding-top:40px;
+    
+}
+#services{
+    padding:80px 20px;
+}
+
+.title{
+    text-align:center;
+    font-size:45px;
+    color:white;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    max-width:600px;
+    margin:auto;
+}
+
+.card{
+    background:#081b3d;
+    padding:35px 25px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card i{
+    font-size:45px;
+    color:#00aaff;
+    margin-bottom:20px;
+}
+
+.card h3{
+    color:white;
+    font-size:26px;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#c8d4e8;
+    font-size:18px;
+    line-height:1.6;
 }

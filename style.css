@@ -693,3 +693,12 @@ font-size:16px;
 .footer-links a:hover{
     color:#00aaff;
 }
+.footer-bottom a,
+.footer-bottom a:visited{
+    color:#d0d7e8 !important;
+    text-decoration:none !important;
+}
+
+.footer-bottom a:hover{
+    color:#00aaff !important;
+}

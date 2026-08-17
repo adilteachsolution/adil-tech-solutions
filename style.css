@@ -560,3 +560,41 @@ section{
     border-radius:10px;
     text-decoration:none;
 }
+.work .steps{
+    max-width:600px;
+    margin:40px auto;
+}
+
+.work .steps > div{
+    background:transparent;
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    padding:20px 0;
+    margin:0;
+}
+
+.work .steps h3{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#081b3d;
+    border:2px solid #00aaff;
+    color:#00aaff;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+}
+
+.work .steps p{
+    color:white;
+    font-size:20px;
+    margin:0 0 8px;
+}
+
+.work .steps small{
+    color:#cbd5e1;
+    font-size:15px;
+}

@@ -506,3 +506,57 @@ section{
     margin-top:20px;
     margin-bottom:20px;
 }
+.project{
+    padding:50px 20px;
+}
+
+.project-box,
+.start-box{
+    max-width:600px;
+    margin:30px auto;
+    padding:35px 25px;
+    border-radius:25px;
+    text-align:center;
+}
+
+.project-box{
+    background:#081b3d;
+    border:1px solid #12366b;
+}
+
+.start-box{
+    background:linear-gradient(135deg,#1749b8,#286cff);
+}
+
+.project-box h2,
+.start-box h2{
+    color:white;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.project-box p,
+.start-box p{
+    color:#d0d7e8;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.project .btn{
+    display:block;
+    background:#287cff;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    text-decoration:none;
+    margin:15px 0;
+}
+
+.project .btn2{
+    display:block;
+    border:2px solid white;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    text-decoration:none;
+}

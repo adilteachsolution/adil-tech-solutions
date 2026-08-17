@@ -361,3 +361,22 @@ P.hero-image{
     font-size:18px;
     line-height:1.6;
 }
+#about{
+    padding:80px 20px;
+}
+
+.about-box{
+    background:#081b3d;
+    max-width:600px;
+    margin:auto;
+    padding:45px 30px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.about-box p{
+    color:#d0d8e8;
+    font-size:22px;
+    line-height:1.7;
+}
